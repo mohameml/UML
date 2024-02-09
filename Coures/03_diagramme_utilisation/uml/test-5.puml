@@ -1,0 +1,6 @@
+@startuml name 
+usecase cas_A 
+usecase cas_B 
+cas_B --|> cas_A 
+
+@enduml

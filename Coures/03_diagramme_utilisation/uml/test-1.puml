@@ -1,0 +1,5 @@
+@startuml name
+usecase fonctionnalité 
+actor utilisateur 
+utilisateur --> fonctionnalité
+@enduml

@@ -1,0 +1,5 @@
+@startuml name
+:Acteur enfant: as a
+:Acetur parent: as b 
+a --|> b
+@enduml

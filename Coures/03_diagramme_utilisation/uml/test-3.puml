@@ -1,0 +1,6 @@
+@startuml name 
+usecase cas_Base 
+usecase cas_Inclus
+
+cas_Base .> cas_Inclus : include
+@enduml

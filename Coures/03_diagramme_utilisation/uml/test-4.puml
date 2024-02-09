@@ -1,0 +1,7 @@
+@startuml name 
+usecase cas_source_A
+usecase cas_B
+
+cas_B .> cas_source_A : extend (condition)
+
+@enduml
