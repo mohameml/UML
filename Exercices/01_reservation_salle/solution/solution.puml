@@ -1,0 +1,30 @@
+@startuml exo1 
+left to right direction
+' les cas d'utilisation 
+usecase (réservation) as Reserv 
+usecase (disponibilité) as Dispo 
+usecase (consultation du plannig ) as ConsPlan 
+usecase (éditer récapitulatif horaire) as Recap  
+
+' les acteures
+actor Enseignant as En 
+actor étudiants as Et 
+actor :Enseignant responsable: as EnR 
+
+' relation 
+
+En --> Reserv 
+En --> ConsPlan 
+
+Et --> ConsPlan 
+
+EnR --> Recap 
+EnR --|> En 
+
+Recap .> ConsPlan : <<extend>>
+Reserv .> Dispo : <<include>>
+
+ 
+
+
+@enduml
