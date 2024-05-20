@@ -1,7 +1,7 @@
-# cour 02 : Diagramme de calsses 
+# cour 04 : **Diagramme de classe et objet (aspects statiques)**
 
 
-## 1. Définition :
+## 1. **Définition :**
 
 - **Diagramme de Classes :** 
     

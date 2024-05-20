@@ -1,0 +1,16 @@
+@startuml
+class Personne {
+  - nom: String
+}
+
+class Entreprise {
+  - nom: String
+}
+
+class Travail {
+  - poste: String
+  + setDateDebut(date: Date): void
+  + setDateFin(date: Date): void
+}
+
+@enduml
