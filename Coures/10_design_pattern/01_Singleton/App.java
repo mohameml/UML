@@ -22,7 +22,7 @@ class MyLogger {
 public class App {
 
     public static void main(String[] args) {
-        MyLogger log = MyLogger.getLogger();
+        MyLogger.getLogger();
     }
 
 }

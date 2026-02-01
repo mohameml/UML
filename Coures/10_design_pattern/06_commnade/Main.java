@@ -59,6 +59,7 @@ class CommandeEnregistrer implements Commande {
 // Classe Document
 class Document {
     private String nom;
+    private Commande cm;
 
     public Document(String nom) {
         this.nom = nom;
